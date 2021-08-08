@@ -3,7 +3,7 @@ import { server } from '../server';
 export const socket = new Server(server, {
   // path: '/timoideas',
   cors: {
-    origin: false,
+    origin: true,
     methods: ['GET', 'POST'],
     credentials: true,
     allowedHeaders: ['hola'],
