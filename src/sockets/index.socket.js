@@ -10,3 +10,4 @@ export const socket = new Server(server, {
   },
 });
 require('./client.socket');
+require('./audio.socket');
