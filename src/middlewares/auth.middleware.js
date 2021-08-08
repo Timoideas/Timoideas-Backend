@@ -6,6 +6,6 @@ export function Auth(req, res, next) {
   } else {
     const { method, protocol, headers } = req;
     const url = `${method} => ${protocol}://${headers.host}/random`;
-    res.status(200).json({ ok: true, requiered: 'Auth error`', visita: url });
+    res.status(200).json({ ok: true, requiered: 'Auth errorss`', visita: url });
   }
 }
